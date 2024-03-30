@@ -23,4 +23,9 @@ public class WelcomeRestController {
 	public String getWelcomeMsg2( String name) {
 		return name;
 	}
+	
+	@GetMapping("/jst")
+	public String getWelcomeMsg3( String name) {
+		return name;
+	}
 }
